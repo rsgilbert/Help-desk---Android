@@ -11,6 +11,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/frontdesk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/redfrontdesk"
@@ -18,17 +19,31 @@
         android:layout_marginTop="55dp"
         android:backgroundTint="#000"/>
 
+    <TextView
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:backgroundTint="None"
+        android:textSize="30dp"
+        android:layout_below="@+id/frontdesk"
+        android:fontFamily="@font/montserrat"
+        android:textAlignment="center"
+        android:text="Welcome to our Mobile Help Desk"/>
+
     <Button
         android:id="@+id/fillform"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:backgroundTint="#0A3CC0"
-        android:text="MAKE INQUIRY"
+        android:text="MAKE YOUR INQUIRY"
         android:textSize="30dp"
         android:layout_marginBottom="30dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:textColor="#fff" />
+        android:textColor="#fff"
+        android:fontFamily="@font/montserrat"/>
 
 </RelativeLayout>
